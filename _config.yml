@@ -1,0 +1,11 @@
+# Site settings
+title: The Pleonast 
+email: pleo@thepleonast.com
+description: > # this means to ignore newlines until "baseurl:"
+  Culturing american things
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://thepleonast.com" # the base hostname & protocol for your site
+twitter_username: thepleonast
+
+# Build settings
+markdown: kramdown
