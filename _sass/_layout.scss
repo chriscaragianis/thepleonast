@@ -2,13 +2,17 @@
  * Site header
  */
 
-#header-image {
+.left-header-image {
   float: left;
-  max-width: 200px;
-  
+  max-width: 150px;
 }
 
-#mainface {
+.right-header-image {
+  float: right;
+  max-width: 150px;
+}
+
+#face {
   max-width: 100%;
 }
 
