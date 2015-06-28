@@ -14,7 +14,7 @@ layout: default
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
           {{ post.excerpt }}
           {% assign image = post.images[0] %}
-          {% include image.html image=image %}
+          <a href="{{ post.url | prepend: site.baseurl }}">{% include image.html image=image %}</a>
         </h2>
       </li>
     {% endfor %}
